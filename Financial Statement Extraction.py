@@ -1,6 +1,13 @@
+
+"""
+Brian Arias Cano
+
+Automated Financial Statement Extraction & Standardization
+
+"""
+
 import pandas as pd
 import requests
-
 
 def get_sec_company_facts(ticker):
     """
